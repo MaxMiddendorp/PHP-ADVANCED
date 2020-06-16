@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-
+<head>
+    <title>Taak 2.1 </title>
+</head>
 <body>
 	<?php
 		$leeftijd = 0;

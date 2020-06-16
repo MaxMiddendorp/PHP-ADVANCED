@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-
+<head>
+    <title>Taak 2.5 </title>
+</head>
 <body>
 	<?php
     $klassen = array(

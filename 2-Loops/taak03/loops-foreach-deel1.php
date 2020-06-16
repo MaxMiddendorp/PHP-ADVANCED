@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-
+<head>
+    <title>Taak 2.3 </title>
+</head>
 <body>
 	<?php
         $dagen = array("maandag", "dinsadg", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");

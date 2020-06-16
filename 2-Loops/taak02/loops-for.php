@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-
+<head>
+    <title>Taak 2.2 </title>
+</head>
 <body>
 	<?php
     echo "<ul>";

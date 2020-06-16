@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-
 <html>
 <head>
-    <title>Mijn gegevens</title>
+    <title>Taak 3.2 </title>
 </head>    
 <body>
 	<?php

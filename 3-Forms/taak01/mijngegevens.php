@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-
 <html>
-
+<head>
+    <title>Taak 3.1 </title>
+</head>
 <body>
 	<?php
     echo "Naam: " . $_POST["voornaam"];
