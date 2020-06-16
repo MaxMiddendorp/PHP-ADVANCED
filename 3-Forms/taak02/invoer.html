@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulier</title>
+</head>
+<body>
+<form name="invoerformulier" action="mijngegevens.php" method="post">
+    <div>Voornaam:</div><input type="text" name="voornaam"></br></br>
+    <div>Achternaam:</div><input type="text" name="achternaam"></br></br>
+    <div>Klas:</div><input type="text" name="klas"></br></br>
+    <div>Leeftijd:</div><input type="text" name="leeftijd"></br></br>
+    <div>Adres:</div><input type="text" name="adres"></br></br>
+    <div>Woonplaats:</div><input type="text" name="woonplaats"></br></br>
+    
+    <div>Geslacht</div>
+    <input type="radio" id="man" name="geslacht" value="Man">
+    <label for="man">Man</label></br>
+    <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+    <label for="vrouw">Vrouw</label></br></br>
+    
+    <label for="kleur">Lievelings kleur: </label>
+    <select name="kleur" id="kleur">
+      <option value="red">Rood</option>
+      <option value="blue">Blauw</option>
+      <option value="orange">Oranje</option>
+      <option value="purple">Paars</option>
+      <option value="yellow">Geel</option>
+    </select></br></br>
+    <input type="submit" name="submit" value="vestuur">
+</form>
+</body>
+
+</html>
