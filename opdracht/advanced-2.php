@@ -7,34 +7,35 @@
 <table id="table">
 
     <?php
-    $Max = array("Voornaam"=>"Max","Achternaam"=>"Middendorp","Klas"=>"9D","Leeftijd"=>17,"Woonplaats"=>"Amstelveen");
-    function maakRow($key,$value){
+    $Max = array("Voornaam" => "Max", "Achternaam" => "Middendorp", "Klas" => "9D", "Leeftijd" => 17, "Woonplaats" => "Amstelveen");
+    function maakRow($key, $value)
+    {
 
-        echo "<tr> <td> $key </td> <td> $value </td> </tr>" ;
+        echo "<tr> <td> $key </td> <td> $value </td> </tr>";
     }
 
 
-    $backKleur = $_POST["back-kleur"];
+    $backKleur = $_POST["background"];
     $border = $_POST["border"];
     $padding = $_POST["padding"];
-    $tekstKleur = $_POST["text-kleur"];
-    echo "<style>
-td,table,tr,th{
-    border: $border;
-    border-collapse: collapse;
-}
-td,th{
-    padding: $padding;
-}
-</style>";
-    echo    "<body style='color:$tekstKleur;background-color:$backKleur'>" ;
+    $tekstKleur = $_POST["tekstkleur"];
 
-    foreach($Max as $key => $value){
-        maakRow($key,$value);
+    echo "<body style='color:$tekstKleur;background-color:$backKleur'>";
+
+    foreach ($Max as $key => $value) {
+        maakRow($key, $value);
     }
-
+    echo "<style>
+    table{
+        color: $tekstKleur;
+        background-color: $backKleur;
+        border: $border solid black;
+        padding: $padding;
+    }
+</style>";
     ?>
 
 </table>
+
 </body>
-</hmtl>
+</html>
